@@ -8,11 +8,11 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="{{ url('/') }}"><img src="assets/img/logo/velogo.png" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
+                                        <p class="info1">We are focused on fuelling Africa's future to make our customers' lives easier and their experience with us more convenient, enjoyable and rewarding.</p>
                                     </div>
                                 </div>
                             </div>
@@ -22,10 +22,12 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="{{ url('/about') }}">About</a></li>
+                                        <li><a href="#">Products</a></li>
+                                        <li><a href="#">Community</a></li>
+                                        <li><a href="#">HSSE</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Media Center</a></li>
                                     </ul>
                                 </div>
                             </div>

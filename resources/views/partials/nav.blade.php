@@ -8,17 +8,17 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left">
                                 <ul>
-                                    <li>+123456789</li>
+                                    <li>+254712345678</li>
                                     <li>info@domain.com</li>
-                                    <li>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</li>
+                                    <li>Mon - Sat 8:00 - 17:00, Sunday - CLOSED</li>
                                 </ul>
                             </div>
                             <div class="header-info-right">
                                 <ul class="header-social">
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                   <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/vivoenergy"target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/vivoenergy/"target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/vivoenergy/"target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                   <li> <a href="https://www.instagram.com/vivoenergygroup/"target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -32,9 +32,9 @@
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
                                 <!-- logo-1 -->
-                                <a href="index.html" class="big-logo"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{ url('/') }}" class="big-logo"><img src="assets/img/logo/velogo.png" alt=""></a>
                                 <!-- logo-2 -->
-                                <a href="index.html" class="small-logo"><img src="assets/img/logo/loder-logo.png" alt=""></a>
+                                <a href="{{ url('/') }}" class="small-logo"><img src="assets/img/logo/loder-velogo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
@@ -44,9 +44,12 @@
                                     <ul id="navigation">
                                         <li><a href="{{ url('/') }}">Home</a></li>
                                         <li><a href="{{ url('/about') }}">About</a></li>
-                                        <li><a href="project.html">Projects</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="#">Products</a></li>
+                                        <li><a href="#">Community</a></li>
+                                        <li><a href="#">HSSE</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Media Center</a></li>
+                                        <!-- <li><a href="#">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="single-blog.html">Blog Details</a></li>
@@ -58,8 +61,7 @@
                                                 <li><a href="project_details.html">Projects Details</a></li>
                                                 <li><a href="services_details.html">Services Details</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        </li> -->
                                     </ul>
                                 </nav>
                             </div>

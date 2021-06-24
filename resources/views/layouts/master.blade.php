@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Construction HTML-5 Template</title>
+        <title>Vivo Energy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"> -->
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="{{ asset("assets/css/bootstrap.min.css") }}">
@@ -29,7 +29,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder-logo.png" alt="">
+                    <img src="assets/img/logo/loder-velogo.png" alt="">
                 </div>
             </div>
         </div>
