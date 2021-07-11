@@ -1,15 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Models\Feedback;
-
 use Cornford\Googlmapper\Facades\MapperFacade as Mapper;
 use Illuminate\Http\Request;
+use App\Models\Feedback;
 use Illuminate\Support\Facades\Session;
 
-
-class FeedbackController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,6 +15,7 @@ class FeedbackController extends Controller
      */
     public function index()
     {
+    
         Mapper::map(-1.2841504046682384, 36.80809136878356);
         Mapper::map(-1.2878492009114686, 36.79385158418575);
         Mapper::map(-1.2579874932981179, 36.74063655903215);
@@ -45,13 +43,12 @@ class FeedbackController extends Controller
      */
     public function store(Request $request)
     {
-       /* $request->validate([
+        $request->validate([
             'name'=>'required',
             'message'=>'required',
             'email'=>'required',
 
         ]);
-        */
 
         $feedback = new Feedback();
         $feedback->name = $request->name;
@@ -62,19 +59,17 @@ class FeedbackController extends Controller
 
         $feedback->save();
 
-       
-
-       
-        return back()->with('alert', 'Thank you for your feedback.');
+        Session::put('Success', 'The feedback has been added successfully');
+        return redirect('/home');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Feedback  $feedback
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Feedback $feedback)
+    public function show($id)
     {
         //
     }
@@ -82,10 +77,10 @@ class FeedbackController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Feedback  $feedback
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Feedback $feedback)
+    public function edit($id)
     {
         //
     }
@@ -94,10 +89,10 @@ class FeedbackController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Feedback  $feedback
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Feedback $feedback)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -105,10 +100,10 @@ class FeedbackController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Feedback  $feedback
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Feedback $feedback)
+    public function destroy($id)
     {
         //
     }
