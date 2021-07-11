@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use Cornford\Googlmapper\Facades\MapperFacade as Mapper;
 use Illuminate\Http\Request;
+use App\Models\Feedback;
+use Illuminate\Support\Facades\Session;
 
 class ContactController extends Controller
 {
@@ -41,7 +43,24 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'message'=>'required',
+            'email'=>'required',
+
+        ]);
+
+        $feedback = new Feedback();
+        $feedback->name = $request->name;
+        $feedback->email = $request->email;
+        $feedback->message= $request->message;
+        $feedback->subject=$request->subject;
+
+
+        $feedback->save();
+
+        Session::put('Success', 'The feedback has been added successfully');
+        return redirect('/home');
     }
 
     /**
