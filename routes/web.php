@@ -26,3 +26,8 @@ Route::resource('contact', ContactController::class);
 
 
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
