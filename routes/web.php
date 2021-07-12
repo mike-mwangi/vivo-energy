@@ -23,6 +23,11 @@ Route::get('/about', function () {
 });
 Route::resource('/contact', FeedbackController::class);
 
+Route::get('products', function () {
+    return view('products');
+});
+
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
