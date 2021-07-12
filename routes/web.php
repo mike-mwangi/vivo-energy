@@ -24,12 +24,6 @@ Route::get('/about', function () {
 Route::resource('/contact', FeedbackController::class);
 
 
-
-
-
-
-
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
