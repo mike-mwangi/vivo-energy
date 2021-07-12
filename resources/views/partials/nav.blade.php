@@ -32,7 +32,8 @@
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
                                 <!-- logo-1 -->
-                                <a href="{{ url('/') }}" class="big-logo"><img src="assets/img/logo/velogo.png" alt=""></a>
+                                <a href="{{ url('/') }}" class="big-logo"><img src="assets/img/logo/velogo.png"style="height:100px" width="205px" alt=""></a>
+                                
                                 <!-- logo-2 -->
                                 <a href="{{ url('/') }}" class="small-logo"><img src="assets/img/logo/loder-velogo.png" alt=""></a>
                             </div>
@@ -68,7 +69,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="header-right-btn f-right d-none d-lg-block">
-                                <a href="#" class="btn">Contact Now</a>
+                                <a href={{ route('contact.store') }}  class="btn">Contact Now</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->
