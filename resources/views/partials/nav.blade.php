@@ -45,7 +45,7 @@
                                     <ul id="navigation">
                                         <li><a href="{{ url('/') }}">Home</a></li>
                                         <li><a href="{{ url('/about') }}">About</a></li>
-                                        <li><a href="#">Products</a></li>
+                                        <li><a href="{{ url('/products') }}">Products</a></li>
                                         <li><a href="#">Community</a></li>
                                         <li><a href="#">HSSE</a></li>
                                         <li><a href="#">Careers</a></li>
