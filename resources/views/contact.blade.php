@@ -12,7 +12,7 @@
                             <nav aria-label="breadcrumb ">
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Contact</a></li> 
+                                <li class="breadcrumb-item"><a href="#">Contact</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -29,11 +29,11 @@
             <div id="map" style="height: 480px; position: relative; overflow: hidden;">
 	{!! Mapper::render() !!}
 
-    
+
 </div>
             </div>
-    
-    
+
+
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-title">Get in Touch</h2>
@@ -72,22 +72,22 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Vienna Court, East Wing </h3>
-                                <p>State House Crescent</br> State House Avenue</p>
-                             
+                                <h3>Kenya</h3>
+                                <p>Nairobi</p>
+
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>Tel +254 (0) 203205555 </h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <h3>+254712345678 </h3>
+                                <p>info@vivoenergy.com</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>P.O Box 43561</h3>
+                                <h3>P.O Box 123</h3>
                                 <p>Send us your query anytime!</p>
                             </div>
                         </div>
@@ -96,9 +96,9 @@
             </div>
         </section>
     <!-- ================ contact section end ================= -->
-   
+
     <!-- JS here -->
-	
+
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->
@@ -116,7 +116,7 @@
 		<!-- One Page, Animated-HeadLin -->
         <script src="./assets/js/wow.min.js"></script>
 		<script src="./assets/js/animated.headline.js"></script>
-		
+
 		<!-- Scrollup, nice-select, sticky -->
         <script src="./assets/js/jquery.scrollUp.min.js"></script>
         <script src="./assets/js/jquery.nice-select.min.js"></script>
@@ -130,13 +130,13 @@
         <script src="./assets/js/mail-script.js"></script>
         <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
         -->
-        
-		<!-- Jquery Plugins, main Jquery -->	
+
+		<!-- Jquery Plugins, main Jquery -->
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-        
+
     </body>
-    
+
     </html>
-    
+
 @endsection

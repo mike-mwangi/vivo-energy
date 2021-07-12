@@ -62,9 +62,7 @@ class FeedbackController extends Controller
 
         $feedback->save();
 
-       
 
-       
         return back()->with('alert', 'Thank you for your feedback.');
     }
 
