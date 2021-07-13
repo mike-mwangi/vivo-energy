@@ -23,6 +23,11 @@ Route::get('/about', function () {
 });
 Route::resource('/contact', FeedbackController::class);
 
+Route::prefix('/media')->group(function(){
+    Route::get('',function(){return view('media');})->name('media');
+    Route::get('/gallery',function(){return view('gallery');})->name('media.gallery');
+    Route::get('/press',function(){return view('press');})->name('media.press');
+});
 Route::get('products', function () {
     return view('products');
 });
@@ -31,3 +36,4 @@ Route::get('products', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+

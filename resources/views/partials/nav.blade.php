@@ -49,7 +49,7 @@
                                         <li><a href="#">Community</a></li>
                                         <li><a href="#">HSSE</a></li>
                                         <li><a href="#">Careers</a></li>
-                                        <li><a href="#">Media Center</a></li>
+                                        <li><a href="{{route('media')}}">Media Center</a></li>
                                         <!-- <li><a href="#">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
