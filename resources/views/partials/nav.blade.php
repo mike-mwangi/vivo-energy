@@ -47,7 +47,7 @@
                                         <li><a href="#">Products</a></li>
                                         <li><a href="#">Community</a></li>
                                         <li><a href="#">HSSE</a></li>
-                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="{{ url('/careers') }}">Careers</a></li>
                                         <li><a href="#">Media Center</a></li>
                                         <!-- <li><a href="#">Blog</a>
                                             <ul class="submenu">
