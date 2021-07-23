@@ -43,11 +43,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess1.png" alt="">
+                                <img src="assets/img/service/why_vivo_others2.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Why Vivo Energy</a></h4>
-                                <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/why_vivo') }}">Why Vivo Energy</a></h4>
+                                <a href="{{ url('/why_vivo') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -57,11 +57,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess2.png" alt="">
+                                <img src="assets/img/service/expect2.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">What to expect</a></h4>
-                                <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/expect') }}">What to expect</a></h4>
+                                <a href="{{ url('/expect') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -71,11 +71,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess3.png" alt="">
+                                <img src="assets/img/service/succeeds2.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Who succeeds</a></h4>
-                                <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/succeeds') }}">Who succeeds</a></h4>
+                                <a href="{{ url('/succeeds') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -85,11 +85,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess4.png" alt="">
+                                <img src="assets/img/service/people2.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Our People</a></h4>
-                                <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/people') }}">Our People</a></h4>
+                                <a href="{{ url('/people') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -99,11 +99,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess5.png" alt="">
+                                <img src="assets/img/service/roles2.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Roles</a></h4>
-                                <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/roles') }}">Roles</a></h4>
+                                <a href="{{ url('/roles') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -113,11 +113,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess6.png" alt="">
+                                <img src="assets/img/service/Student-and-Graduates.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Students and graduates</a></h4>
-                                <a href="" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/students') }}">Students and graduates</a></h4>
+                                <a href="{{ url('/students') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -127,11 +127,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/servicess6.png" alt="">
+                                <img src="assets/img/service/vacancies.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="services_details.html">Vacancies</a></h4>
-                                <a href="" class="more-btn">Read More <i class="ti-plus"></i></a>
+                                <h4><a href="{{ url('/vacancies') }}">Vacancies</a></h4>
+                                <a href="{{ url('/vacancies') }}" class="more-btn">Read More <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
