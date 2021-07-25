@@ -1,8 +1,48 @@
+
 @extends('layouts.master')
 
 @section('content')
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-<  <!-- Header Start -->
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/gijgo.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+
+   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/hope/loder-velogo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
        <div class="header-area header-transparent">
             <div class="main-header ">
                 <div class="header-top d-none d-lg-block">
@@ -45,14 +85,16 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a>
-                                            <ul class="submenu">
-                                                <li><a href="history.html">Our History</a></li>
-                                                <li><a href="glance.html">At a Glance</a></li>
-                                                <li><a href="principles.html">Our Principles</a></li>
-                                                <li><a href="vision.html">Our Vision</a></li>
-                                            </ul></li>
+                                            <li><a href="home.blade.php">Home</a></li>
+                                            <li><a href="about.blade.php">About</a>
+                                            
+                                            
+                                                <ul class="submenu">
+                                                    <li><a href="history.blade.php">Our History</a></li>
+                                                    <li><a href="glance.blade.php">At a Glance</a></li>
+                                                    <li><a href="principles.blade.php">Our Principles</a></li>
+                                                    <li><a href="vision.blade.php">Our Vision</a></li>
+                                                </ul></li>
                                             <li><a href="services.html">Products/Services</a></li>
                                             <li><a href="hsse.html">HSSE</a>
                                             <ul class="submenu">
@@ -101,62 +143,11 @@
                     </div>
                </div>
             </div>
-       </div>
+       </div><br><br><br><br><br><br><br><br><br>
         <!-- Header End -->
     </header>
     <main>
-        <!-- slider Area Start-->
-        <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap pt-100">
-                                <h2>About us</h2>
-                                <nav aria-label="breadcrumb ">
-                                    <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">About</a></li> 
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- slider Area End-->
-        <!-- About Area Start -->
-        <section class="support-company-area fix pt-10 section-padding30">
-            <div class="support-wrapper align-items-end">
-                <div class="left-content">
-                    <!-- section tittle -->
-                    <div class="section-tittle section-tittle2 mb-55">
-                        <div class="front-text">
-                            <h2 class="">Who we are</h2>
-                        </div>
-                        <span class="back-text">About us</span>
-                    </div>
-                    <div class="support-caption">
-                        <p class="pera-top">We are Vivo Energy, the company that distributes and markets Shell and Engen branded fuels and lubricants
-                            to retail and commercial customers in Africa. We operate in 23 countries across North, West, East and Southern Africa where we have a network of over 2,000 service stations. 
-                            We also export lubricants to a number of other African Countries.
-                        </p>
-                    </div>
-                </div>
-                <div class="right-content">
-                    <!-- img -->
-                    <div class="right-img">
-                        <img src="assets/img/hope/roles.jpg" alt="">
-                    </div>
-                    <div class="support-img-cap text-center">
-                        <span>2011</span>
-                        <p>Since</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Area End --> 
+       
         <!-- Testimonial Start -->
         <div class="testimonial-area t-bg testimonial-padding">
             <div class="container ">
@@ -167,7 +158,7 @@
                             <div class="front-text">
                                 <h2 class="">Our</h2>
                             </div>
-                            <span class="back-text">History</span>
+                            <span class="back-text">Vision</span>
                         </div>
                     </div>
                 </div>
@@ -184,15 +175,13 @@
                                         <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
                                         d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
                                         </svg>
-                                        <p>Fuelling Africa's Future since December 2011. We’ve achieved a lot since 2011, and now have a presence in 23 countries across Africa.
-                                             Our vision is to become the most respected energy business in Africa.</p>
+                                        <p>Vivo Energy’s vision is ‘To become the most respected energy business in Africa’. For us, this means doing business the right way and putting Health, Safety Security and Environment first.</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center">
                                        <div class="founder-text">
                                             <span>December</span>
                                             <p>2011</p>
-                                             <a href="history.html" class="btn red-btn2">Read More</a>
                                        </div>
                                     </div>
                                 </div>
@@ -204,56 +193,52 @@
             </div>
         </div>
         <!-- Testimonial End -->
-        <!-- Team Start -->
-        <div class="team-area section-padding30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle5 mb-50">
+              <!-- About Area Start -->
+              <section class="support-company-area fix pt-10 section-padding30">
+                <div class="support-wrapper align-items-end">
+                    <div class="left-content">
+                        <!-- section tittle -->
+                        <div class="section-tittle section-tittle2 mb-55">
                             <div class="front-text">
-                                <h2 class="">Know More</h2>
+                                <h2 class="">Doing Business The Right Way</h2>
                             </div>
+                            <span class="back-text">About us</span>
+                        </div>
+                        <div class="support-caption">
+                            <p class="pera-top">At Vivo Energy, we don’t set ourselves demanding ethical standards out of a sense of altruism or because we lack ambition. We do the right thing because 
+                                it’s the best way to succeed and grow the business. The standards we apply and adhere to 
+                                across Africa are the same high standards that apply in the world’s most tightly regulated 
+                                downstream markets. We have zero tolerance for corruption, unsafe practices, environmental 
+                                neglect or unfair competition.</p>
+
                         </div>
                     </div>
+                    <div class="right-content">
+                        <!-- img -->
+                        <div class="right-img">
+                            <img src="assets/img/hope/vision.png" alt="">
+                        </div>
+                        <div class="support-img-cap text-center">
+                            <span>2011</span>
+                            <p>Since</p>
+                        </div>
+                    </div>
+                                <h2 class="">Health, Safety, Security and Environment (HSSE) first </h2> 
+                                <p class="pera-top"><ol>For us this means:
+
+<li>Goal Zero: putting safety first.</li>
+<li>Investing in the future – for the business and the communities and countries in which we operate.</li>
+<li>Delivering value to our employees: empower, recognise and reward.</li>
+<li>Caring for the environment, communities and people. Clear vision and swift decision-making.</li></ol>
+We want our employees, customers and suppliers to be eager to work with us; we want to be a partner<br>
+ of choice for governments in terms of regulating and developing the industry; we want people to <br>
+ say ‘Vivo Energy is a great company’. When a person says ‘I work at Vivo Energy’, it must <br>
+ resonate. In short, over time, we want to be recognised as Africa’s most respected energy business.<br>
+                          ---- Christian Chammas, CEO Vivo Energy
+                            </p>
                 </div>
-                <div class="row">
-                    <!-- single Tem -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/vision.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="vision.html"><h3>Our Vision</h3></a></li>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/energy.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="glance.html"><h3>At a Glance</h3></a></li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/principles.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="principles.html"><h3>Our Principles</h3></a></li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+            </section>
+            <!-- About Area End --> 
     </main>
    <footer>
        <!-- Footer Start-->
@@ -324,6 +309,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
       </div>
