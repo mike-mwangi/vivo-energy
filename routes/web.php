@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FeedbackController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +18,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('about', function () {
+Route::get('/about', function () {
     return view('about');
 });
+Route::resource('/contact', FeedbackController::class);
 
 Route::get('careers',function () {
     return view('careers');
@@ -41,6 +43,15 @@ Route::get('people',function () {
     return view('people');
 });
 
+Route::prefix('/media')->group(function(){
+    Route::get('',function(){return view('media');})->name('media');
+    Route::get('/gallery',function(){return view('gallery');})->name('media.gallery');
+    Route::get('/press',function(){return view('press');})->name('media.press');
+});
+Route::get('products', function () {
+    return view('products');
+});
+
 Route::get('roles',function () {
     return view('roles');
 });
@@ -51,4 +62,8 @@ Route::get('students',function () {
 
 Route::get('vacancies',function () {
     return view('vacancies');
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
