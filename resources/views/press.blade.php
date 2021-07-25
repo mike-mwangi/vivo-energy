@@ -8,7 +8,7 @@
                     <div class="blog_left_sidebar">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
+                                <image class="card-img rounded-0" src="{{asset('assets/img/gallery/fuels.jpg')}}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
@@ -19,8 +19,7 @@
                                 <a class="d-inline-block" href="single-blog.html">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Vivo Energy Uganda, the company that distributes and markets Shell-branded fuels and lubricants in Uganda, together with National Environment Management Authority (NEMA), Uganda Breweries Limited....</p>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
@@ -30,7 +29,7 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
+                                <image  class="card-img rounded-0" src="{{asset('assets/img/gallery/aviation.jpg')}}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
@@ -39,10 +38,9 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>Shipping to your destination at a blinks eye</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>With our fleet of transport cargo we are able to reach our customers on any part of the globe at any moment..</p>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
@@ -52,19 +50,18 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
+                            <image class="card-img rounded-0" src="{{asset('assets/img/gallery/lubricants.jpg')}}" alt="">
                                 <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
+                                    <h3>31</h3>
                                     <p>Jan</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>A constellation of endless products just for you </h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Here at vivo energy we satisfy all of your automotive needs with an inexhaustible array of professional products just suited for you ....</p>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
