@@ -20,8 +20,11 @@
             <link rel="stylesheet" href="{{ asset("assets/css/slick.css") }}">
             <link rel="stylesheet" href="{{ asset("assets/css/nice-select.css") }}">
             <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
+            <link rel="stylesheet" href="{{asset("assets/css/fullpage.css")}}">
         <!-- Icons here -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Jquery link -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
    </head>
 
    <body>
@@ -31,7 +34,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder-velogo.png" alt="">
+                    <img src="assets/img/logo/loader-velogo.png" alt="">
                 </div>
             </div>
         </div>
