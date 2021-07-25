@@ -48,6 +48,8 @@
                                         <li><a href="{{ url('/products') }}">Products</a></li>
                                         <li><a href="#">Community</a></li>
                                         <li><a href="#">HSSE</a></li>
+                                        <li><a href="{{ url('/careers') }}">Careers</a></li>
+                                        <li><a href="#">Media Center</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="{{route('media')}}">Media Center</a></li>
                                         <!-- <li><a href="#">Blog</a>
@@ -69,7 +71,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="header-right-btn f-right d-none d-lg-block">
-                                <a href={{ route('contact.store') }}  class="btn">Contact Now</a>
+                                <a href="{{ route('contact.store') }}"  class="btn">Contact Now</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->

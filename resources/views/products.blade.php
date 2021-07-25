@@ -45,11 +45,11 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/fuels.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/fuels.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Fuels</a></h4>
-                                {{--  <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>  --}}
+                         {{--  <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>  --}}
                             </div>
                             <div class="service-icon">
                                 <img src="assets/img/icon/services_icon1.png" alt="">
@@ -59,7 +59,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/aviation.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/aviation.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Aviation</a></h4>
@@ -73,7 +73,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/lubricants.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/lubricants.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">lubricants</a></h4>
@@ -87,7 +87,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/marine.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/marine.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Marine</a></h4>
@@ -101,7 +101,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/mining.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/mining.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Mining</a></h4>
@@ -115,7 +115,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/cardservices.png" alt="" width = 360px height = 224px>
+                            <a href="contact"> <img src="assets/img/service/cardservices.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Card Services</a></h4>
@@ -129,7 +129,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/lpg.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/lpg.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">LPG</a></h4>
@@ -143,7 +143,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/foodservices.png" alt="" width = 360px height = 224px>
+                            <a href="contact"><img src="assets/img/service/foodservices.png" alt="" width = 360px height = 224px></a>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Food Partnerships</a></h4>
@@ -157,8 +157,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/images.png" alt="" width =width = 360px height = 224px>
-                            </div>
+                            <a href="contact"><img src="assets/img/service/images.png" alt="" width = 360px height = 224px></a>
+                                </div>
                             <div class="service-cap">
                                 <h4><a href="services_details.html">Shops and Services</a></h4>
                                 {{--  <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>  --}}
