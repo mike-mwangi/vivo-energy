@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  position: relative;
+}
+/* header */
+.header{
+    background-color: #202044;
+    position: relative;
+    padding: .5em;
+}
+.logo{
+    display: inline-block;
+    font-size: 1.5em;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-bar{
+    display: inline-block;
+    position: absolute;
+    padding: .25em;
+    right: 0;
+}
+.nav-links{
+    list-style: none;
+    display: inline-block;
+    padding:.45em;
+}
+.nav-links a{
+    color: #FFF;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+.nav-links a:hover,
+.nav-links a:hover{
+    transition-duration: .5s;
+    color: #FD7E14;
+}
+.active{
+    background-color: #FD7E14;
+    border:2px solid transparent;
+    transition-duration: .5s;
+}
+.active:hover{
+    transition-duration: .5s;
+    background-color: transparent;
+    border-color: #FD7E14;
+}
+/* body */
+.banner{
+    background-color: #FD7E14;
+    padding: .25em;
+    color: white;
+    font-weight: 800;
+}
+.banner a{
+    margin: .25em;
+    color: #FFF;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+/* buttons */
+.btn {
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    padding: .5em;
+    border: 2px solid transparent;
+    transition-duration: .5s;
+  }
+  .btn-accent{
+      background-color: #FD7E14;
+      color: #FFF;
+  }
+  .btn-accent:focus,
+  .btn-accent:hover{
+      transition-duration: .5s;
+      color: #FD7E14;
+      background-color: transparent;
+      border-color: #FD7E14;
+  }
+  
+/* form */
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+.form-container form{
+    
+    width: 60%;
+}
+.input_field{
+    display: block;
+    margin: .5em;
+    padding:.25em;
+    width: 100%;
+    height: 2em;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom-color: #202044;
+}
+.input_field:focus{
+    transition-duration: .5s;
+    border-color: #202044;
+    border-radius: 10px;
+}
+.btn-submit{
+    width: 100%;
+    font-size: 1.05em;
+    margin: 1em;
+}
+/* footer */
+.footer{
+    background-color: #202044;
+    color: #FFF;
+    
+    padding: .25em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-container>*{
+
+    flex:1 0 12em;
+    gap: 1em;
+}
+.footer-links{
+    display: block;
+    width: 1em;
+    white-space: nowrap;
+    padding: .25em;
+    color: #FFF;
+    text-decoration: none;
+}
+.footer-links:hover{
+    transition-duration: .5s;
+    color:#FD7E14
+}
+.copyright{
+    text-align: center;
+}
