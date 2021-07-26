@@ -3,150 +3,7 @@
 
 @section('content')
 
-<!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Our History</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/gijgo.css">
-            <link rel="stylesheet" href="assets/css/slicknav.css">
-            <link rel="stylesheet" href="assets/css/animate.min.css">
-            <link rel="stylesheet" href="assets/css/magnific-popup.css">
-            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="assets/css/themify-icons.css">
-            <link rel="stylesheet" href="assets/css/slick.css">
-            <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/style.css">
-            <link rel="stylesheet" href="assets/css/responsive.css">
-   </head>
-
-   <body>
-    <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/hope/loder-velogo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-       <div class="header-area header-transparent">
-            <div class="main-header ">
-                <div class="header-top d-none d-lg-block">
-                   <div class="container-fluid">
-                       <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left">
-                                    <ul>     
-                                        <li>Language</li>
-                                        <li>FRANCAIS</li>
-                                        <li>ENGLISH</li>
-                                    </ul>
-                                </div>
-                                <div class="header-info-right">
-                                    <ul class="header-social">    
-                                        <li><a href="https://twitter.com/vivoenergy?lang=en"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="https://www.facebook.com/vivoenergy/"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/vivoenergy"><i class="fab fa-linkedin-in"></i></a></li>
-                                       <li> <a href="https://www.instagram.com/vivoenergygroup/?hl=en"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                       </div>
-                   </div>
-                </div>
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2 col-md-1">
-                                <div class="logo">
-                                    <!-- logo-1 -->
-                                    <a href="home.blade.php" class="big-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
-                                    <!-- logo-2 -->
-                                    <a href="home.blade.php" class="small-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav> 
-                                        <ul id="navigation">                                                                                                                   
-                                            <li><a href="home.blade.php">Home</a></li>
-                                            <li><a href="about.blade.php">About</a>
-                                            
-                                            
-                                                <ul class="submenu">
-                                                    <li><a href="history.blade.php">Our History</a></li>
-                                                    <li><a href="glance.blade.php">At a Glance</a></li>
-                                                    <li><a href="principles.blade.php">Our Principles</a></li>
-                                                    <li><a href="vision.blade.php">Our Vision</a></li>
-                                                </ul></li>
-                                            <li><a href="services.html">Products/Services</a></li>
-                                            <li><a href="hsse.html">HSSE</a>
-                                            <ul class="submenu">
-                                                <li><a href="">HSSE Performance</a></li>
-                                                <li><a href="">Our HSSE Commitment</a></li>
-                                                <li><a href="">Our policy</a></li>
-                                            </ul></li>
-                                            <li><a href="careers.html">Careers</a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Why Vivo Energy?</a></li>
-                                                    <li><a href="">What to Expect?</a></li>
-                                                    <li><a href="">Who Succeeds?</a></li>
-                                                    <li><a href="">Our People</a></li>
-                                                    <li><a href="">Roles</a></li>
-                                                    <li><a href="">Who Succeeds</a></li>
-                                                </ul>
-                            
-                                            <li><a href="community.html">Community</a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">Element</a></li>
-                                                <li><a href="project_details.html">Projects Details</a></li>
-                                                <li><a href="services_details.html">Services Details</a></li>
-                                            </ul></li>
-                                            <li><a href="media.html">Media Centre</a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Press Releases</a></li>
-                                                    <li><a href="">Social Media</a></li>
-                                                    <li><a href="">Image Gallery</a></li>
-                                                    <li><a href="">Media Contacts</a></li>
-                                                </ul></li>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>             
-                            <div class="col-xl-2 col-lg-2 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="contact.html" class="btn">Contact Us</a>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
     <main>
 
         <section class="support-company-area fix pt-10 section-padding30">
@@ -240,7 +97,7 @@
                         <div class="single-footer-caption mb-30">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/hope/loder-velogo.png" alt=""></a>
+                                <a href="home.blade.php"><img src="assets/img/hope/loder-velogo.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -249,11 +106,11 @@
                             <div class="footer-tittle">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">Loation</a></li>
-                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="products.blade.php">Products</a></li>
+                                    <li><a href="#">Location</a></li>
+                                    <li><a href="careers.blade.php">Careers</a></li>
                                     <li><a href="#">HSSE</a></li>
-                                    <li><a href="#">Community</a></li>
+                                    <li><a href="community.bblade.php">Community</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -265,8 +122,8 @@
                                 <ul>
                                     <ul>
                                         <li><a href="#">Investors</a></li>
-                                        <li><a href="#">Media Centre</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="media.blade.php">Media Centre</a></li>
+                                        <li><a href="contact.blade.php">Contact Us</a></li>
                                         <li><a href="#">Legal Disclaimer</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
                                     </ul>
