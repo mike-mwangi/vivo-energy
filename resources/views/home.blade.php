@@ -182,25 +182,29 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <!-- single-news -->
-                <div class="single-news mb-30">
-                    <div class="news-img">
-                        <img src="assets/img/gallery/news.jpg" alt="">
-                        <div class="news-date text-center">
-                            <span>29</span>
-                            <p>June</p>
-                            <p>2021</p>
+            @foreach ($blogs as $blog)
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <!-- single-news -->
+                            <div class="single-news mb-30">
+                                <div class="news-img">
+                                    <a href="/single-blog/{{ $blog->id }}"><img class="card-img-top" src="{{ blogImage($blog->blog_image) }}" alt=""></a>
+
+                                    <div class="news-date text-center">
+                                        <span>{{$blog->created_at}}</span>
+
+                                    </div>
+                                </div>
+                                <div class="news-caption">
+                                    <ul class="david-info">
+                                        <li>{{ $blog->blog_body}}</li>
+                                    </ul>
+                                    <a href="/single-blog/{{ $blog->id }}" class="d-btn">Read more »</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="news-caption">
-                        <ul class="david-info">
-                            <li>New office block for the Dagoretti Police Post courtesy of Vivo Energy Kenya!</li>
-                        </ul>
-                        <a href="single-blog.html" class="d-btn">Read more »</a>
-                    </div>
-                </div>
-            </div>
+
+                @endforeach
+
         </div>
     </div>
 </div>

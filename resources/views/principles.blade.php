@@ -2,7 +2,47 @@
 
 @section('content')
 
-<  <!-- Header Start -->
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>About/Our Principles</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/gijgo.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+
+   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/hope/loder-velogo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
        <div class="header-area header-transparent">
             <div class="main-header ">
                 <div class="header-top d-none d-lg-block">
@@ -45,14 +85,16 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a>
-                                            <ul class="submenu">
-                                                <li><a href="history.html">Our History</a></li>
-                                                <li><a href="glance.html">At a Glance</a></li>
-                                                <li><a href="principles.html">Our Principles</a></li>
-                                                <li><a href="vision.html">Our Vision</a></li>
-                                            </ul></li>
+                                            <li><a href="home.blade.php">Home</a></li>
+                                            <li><a href="about.blade.php">About</a>
+                                            
+                                            
+                                                <ul class="submenu">
+                                                    <li><a href="history.blade.php">Our History</a></li>
+                                                    <li><a href="glance.blade.php">At a Glance</a></li>
+                                                    <li><a href="principles.blade.php">Our Principles</a></li>
+                                                    <li><a href="vision.blade.php">Our Vision</a></li>
+                                                </ul></li>
                                             <li><a href="services.html">Products/Services</a></li>
                                             <li><a href="hsse.html">HSSE</a>
                                             <ul class="submenu">
@@ -101,31 +143,10 @@
                     </div>
                </div>
             </div>
-       </div>
+       </div><br><br><br>
         <!-- Header End -->
     </header>
     <main>
-        <!-- slider Area Start-->
-        <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap pt-100">
-                                <h2>About us</h2>
-                                <nav aria-label="breadcrumb ">
-                                    <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">About</a></li> 
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- slider Area End-->
         <!-- About Area Start -->
         <section class="support-company-area fix pt-10 section-padding30">
             <div class="support-wrapper align-items-end">
@@ -133,21 +154,38 @@
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-55">
                         <div class="front-text">
-                            <h2 class="">Who we are</h2>
+                            <h2 class="">Our Principles</h2>
                         </div>
-                        <span class="back-text">About us</span>
+                        <span class="back-text">AT A GLANCE</span>
                     </div>
                     <div class="support-caption">
-                        <p class="pera-top">We are Vivo Energy, the company that distributes and markets Shell and Engen branded fuels and lubricants
-                            to retail and commercial customers in Africa. We operate in 23 countries across North, West, East and Southern Africa where we have a network of over 2,000 service stations. 
-                            We also export lubricants to a number of other African Countries.
-                        </p>
+                        <p class="pera-top">Our core values are honesty, integrity and respect for people. They underpin all the work we do 
+                            and are the foundation of our business. We uphold these values in everything we do. Indeed, they are crucial to 
+                            our success and growth as a company, and to achieving
+                             our vision of becoming ‘Africa’s most respected energy business
+                            These core values are encapsulated in our Code of Conduct and General Business Principles, 
+                            which outline clear, concrete and detailed principles and ethical actions by which we should
+                             conduct ourselves, and drive the behaviour expected of every employee in every Vivo Energy operation at all times.<br><br>
+
+                            The Vivo Energy Health, Safety, Security, Environment, Quality and Social Performance policy and commitment 
+                            applies across our Group and we require our contractors to manage HSSEQ & SP in accordance with our policy.
+                             It is designed to help protect people, the environment and the communities in which we operate. We have Group-wide 
+                             standards across 12 key risk areas in place to help manage potential impacts and a clear Governance structure 
+                             through which we control our HSSEQ & SP Management System.
+                            We’re committed to reducing our environmental impact and continually improving our environmental performance,
+                             and encourage our partners, customers, suppliers and other stakeholders to do the same. In 2019 we updated our 
+                             Environmental <br><br>
+                            Policy to focus on minimising our impact on the environment, in recognition of the Paris Agreement.
+                            Our tax strategy has been published in accordance with paragraph 16(2) of the Finance Act 2016 and 
+                            applies to Vivo Energy and its group subsidiaries. 
+                            
+                            </p>
                     </div>
                 </div>
                 <div class="right-content">
                     <!-- img -->
                     <div class="right-img">
-                        <img src="assets/img/hope/roles.jpg" alt="">
+                        <img src="assets/img/hope/energy.png" alt="">
                     </div>
                     <div class="support-img-cap text-center">
                         <span>2011</span>
@@ -157,103 +195,6 @@
             </div>
         </section>
         <!-- About Area End --> 
-        <!-- Testimonial Start -->
-        <div class="testimonial-area t-bg testimonial-padding">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle6 mb-50">
-                            <div class="front-text">
-                                <h2 class="">Our</h2>
-                            </div>
-                            <span class="back-text">History</span>
-                        </div>
-                    </div>
-                </div>
-               <div class="row">
-                    <div class="col-xl-10 col-lg-11 col-md-10 offset-xl-1">
-                        <div class="h1-testimonial-active">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial">
-                                 <!-- Testimonial Content -->
-                                <div class="testimonial-caption ">
-                                    <div class="testimonial-top-cap">
-                                        <!-- SVG icon -->
-                                        <svg xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink"width="86px" height="63px">
-                                        <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
-                                        d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
-                                        </svg>
-                                        <p>Fuelling Africa's Future since December 2011. We’ve achieved a lot since 2011, and now have a presence in 23 countries across Africa.
-                                             Our vision is to become the most respected energy business in Africa.</p>
-                                    </div>
-                                    <!-- founder -->
-                                    <div class="testimonial-founder d-flex align-items-center">
-                                       <div class="founder-text">
-                                            <span>December</span>
-                                            <p>2011</p>
-                                             <a href="history.html" class="btn red-btn2">Read More</a>
-                                       </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-               </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-        <!-- Team Start -->
-        <div class="team-area section-padding30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle5 mb-50">
-                            <div class="front-text">
-                                <h2 class="">Know More</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- single Tem -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/vision.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="vision.html"><h3>Our Vision</h3></a></li>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/energy.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="glance.html"><h3>At a Glance</h3></a></li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/hope/principles.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <li><a href="principles.html"><h3>Our Principles</h3></a></li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
     </main>
    <footer>
        <!-- Footer Start-->
@@ -321,6 +262,16 @@
                                 <div class="map-footer">
                                     <img src="assets/img/gallery/map-footer.png" alt="">
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Copy-Right -->
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
                     </div>
