@@ -64,6 +64,11 @@ Route::get('vacancies',function () {
     return view('vacancies');
 });
 
+Route::get('/', 'App\Http\Controllers\BlogController@index');
+
+Route::get('single-blog/{id}', 'App\Http\Controllers\BlogController@show');
+
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
