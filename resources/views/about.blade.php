@@ -35,9 +35,9 @@
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
                                     <!-- logo-1 -->
-                                    <a href="index.html" class="big-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
+                                    <a href="home.blade.php" class="big-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
                                     <!-- logo-2 -->
-                                    <a href="index.html" class="small-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
+                                    <a href="home.blade.php" class="small-logo"><img src="assets/img/hope/velogo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
@@ -45,29 +45,28 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a>
+                                            <li><a href="home.blade.php">Home</a></li>
+                                            <li><a href="home.blade.php">About</a>
                                             <ul class="submenu">
-                                                <li><a href="history.html">Our History</a></li>
-                                                <li><a href="glance.html">At a Glance</a></li>
-                                                <li><a href="principles.html">Our Principles</a></li>
-                                                <li><a href="vision.html">Our Vision</a></li>
+                                                <li><a href="history.blade.php">Our History</a></li>
+                                                <li><a href="glance.blade.php">At a Glance</a></li>
+                                                <li><a href="principles.blade.php">Our Principles</a></li>
+                                                <li><a href="vision.blade.php">Our Vision</a></li>
                                             </ul></li>
-                                            <li><a href="services.html">Products/Services</a></li>
+                                            <li><a href="products.blade.php">Products/Services</a></li>
                                             <li><a href="hsse.html">HSSE</a>
                                             <ul class="submenu">
                                                 <li><a href="">HSSE Performance</a></li>
                                                 <li><a href="">Our HSSE Commitment</a></li>
                                                 <li><a href="">Our policy</a></li>
                                             </ul></li>
-                                            <li><a href="careers.html">Careers</a>
+                                            <li><a href="careers.blade.php">Careers</a>
                                                 <ul class="submenu">
-                                                    <li><a href="">Why Vivo Energy?</a></li>
-                                                    <li><a href="">What to Expect?</a></li>
-                                                    <li><a href="">Who Succeeds?</a></li>
+                                                    <li><a href="why_vivo.blade.php">Why Vivo Energy?</a></li>
+                                                    <li><a href="expect.blade.php">What to Expect?</a></li>
+                                                    <li><a href="succeeds.blade.php">Who Succeeds?</a></li>
                                                     <li><a href="">Our People</a></li>
-                                                    <li><a href="">Roles</a></li>
-                                                    <li><a href="">Who Succeeds</a></li>
+                                                    <li><a href="roles.blade.php">Roles</a></li>
                                                 </ul>
                             
                                             <li><a href="community.html">Community</a>
@@ -76,12 +75,12 @@
                                                 <li><a href="project_details.html">Projects Details</a></li>
                                                 <li><a href="services_details.html">Services Details</a></li>
                                             </ul></li>
-                                            <li><a href="media.html">Media Centre</a>
+                                            <li><a href="media.blade.php">Media Centre</a>
                                                 <ul class="submenu">
-                                                    <li><a href="">Press Releases</a></li>
+                                                    <li><a href="press.blade.php">Press Releases</a></li>
                                                     <li><a href="">Social Media</a></li>
-                                                    <li><a href="">Image Gallery</a></li>
-                                                    <li><a href="">Media Contacts</a></li>
+                                                    <li><a href="gallery.blade.php">Image Gallery</a></li>
+                                                    <li><a href="contact.blade.php">Media Contacts</a></li>
                                                 </ul></li>
                                             </li>
                                         </ul>
@@ -90,7 +89,7 @@
                             </div>             
                             <div class="col-xl-2 col-lg-2 col-md-3">
                                 <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="contact.html" class="btn">Contact Us</a>
+                                    <a href="contact.blade.php" class="btn">Contact Us</a>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
@@ -115,7 +114,7 @@
                                 <h2>About us</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="home.blade.php">Home</a></li>
                                     <li class="breadcrumb-item"><a href="#">About</a></li> 
                                     </ol>
                                 </nav>
@@ -192,7 +191,7 @@
                                        <div class="founder-text">
                                             <span>December</span>
                                             <p>2011</p>
-                                             <a href="history.html" class="btn red-btn2">Read More</a>
+                                             <a href="history.blade.php" class="btn red-btn2">Read More</a>
                                        </div>
                                     </div>
                                 </div>
@@ -225,7 +224,7 @@
                                 <img src="assets/img/hope/vision.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <li><a href="vision.html"><h3>Our Vision</h3></a></li>
+                                <li><a href="vision.blade.php"><h3>Our Vision</h3></a></li>
                                 
                             </div>
                         </div>
@@ -236,7 +235,7 @@
                                 <img src="assets/img/hope/energy.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <li><a href="glance.html"><h3>At a Glance</h3></a></li>
+                                <li><a href="glance.blade.php"><h3>At a Glance</h3></a></li>
                             </div>
                         </div>
                     </div>
@@ -246,7 +245,7 @@
                                 <img src="assets/img/hope/principles.png" alt="">
                             </div>
                             <div class="team-caption">
-                                <li><a href="principles.html"><h3>Our Principles</h3></a></li>
+                                <li><a href="principles.blade.php"><h3>Our Principles</h3></a></li>
                             </div>
                         </div>
                     </div>
@@ -265,7 +264,7 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/hope/loder-velogo.png" alt=""></a>
+                                    <a href="home.blade.php"><img src="assets/img/hope/loder-velogo.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -274,11 +273,11 @@
                                 <div class="footer-tittle">
                                     <h4>Quick Links</h4>
                                     <ul>
-                                        <li><a href="#">Products</a></li>
-                                        <li><a href="#">Loation</a></li>
-                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="products.blade.php">Products</a></li>
+                                        <li><a href="">Location</a></li>
+                                        <li><a href="careers.blade.php">Careers</a></li>
                                         <li><a href="#">HSSE</a></li>
-                                        <li><a href="#">Community</a></li>
+                                        <li><a href="community.blade.php">Community</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -290,8 +289,8 @@
                                     <ul>
                                         <ul>
                                             <li><a href="#">Investors</a></li>
-                                            <li><a href="#">Media Centre</a></li>
-                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="media.blade.php">Media Centre</a></li>
+                                            <li><a href="contact.blade.php">Contact Us</a></li>
                                             <li><a href="#">Legal Disclaimer</a></li>
                                             <li><a href="#">Privacy Policy</a></li>
                                         </ul>
