@@ -17,7 +17,7 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>New Branches</h2>
                                 </a>
                                 <p>Vivo Energy Uganda, the company that distributes and markets Shell-branded fuels and lubricants in Uganda, together with National Environment Management Authority (NEMA), Uganda Breweries Limited....</p>
                                 <ul class="blog-info-link">
@@ -158,7 +158,7 @@
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Recent Post</h3>
                             <div class="media post_item">
-                                <img src="assets/img/post/post_1.png" alt="post">
+                                <img src="{{asset('assets/img/post/post_1.png')}}" alt="post">
                                 <div class="media-body">
                                     <a href="single-blog.html">
                                         <h3>From life was you fish...</h3>
@@ -167,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="assets/img/post/post_2.png" alt="post">
+                                <img src="{{asset('assets/img/post/post_2.png')}}" alt="post">
                                 <div class="media-body">
                                     <a href="single-blog.html">
                                         <h3>The Amazing Hubble</h3>
@@ -176,7 +176,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="assets/img/post/post_3.png" alt="post">
+                            <img src="{{asset('assets/img/post/post_3.png')}}" alt="post">
                                 <div class="media-body">
                                     <a href="single-blog.html">
                                         <h3>Astronomy Or Astrology</h3>
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="assets/img/post/post_4.png" alt="post">
+                                <img src="{{asset('assets/img/post/post_4.png')}}" alt="post">
                                 <div class="media-body">
                                     <a href="single-blog.html">
                                         <h3>Asteroids telescope</h3>
@@ -230,32 +230,32 @@
                             <ul class="instagram_row flex-wrap">
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_5.png')}}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_6.png')}}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_7.png')}}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_8.png')}}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_9.png')}}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
+                                        <img class="img-fluid" src="{{asset('assets/img/post/post_10.png')}}" alt="">
                                     </a>
                                 </li>
                             </ul>
