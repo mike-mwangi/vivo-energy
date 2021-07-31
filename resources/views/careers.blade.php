@@ -85,7 +85,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service-cap mb-30">
                             <div class="service-img">
-                                <img src="assets/img/service/people2.png" alt="" width = 360px height = 224px>
+                                <img src="assets/img/service/peopless.png" alt="" width = 360px height = 224px>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="{{ url('/people') }}">Our People</a></h4>

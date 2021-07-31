@@ -43,6 +43,42 @@ Route::get('people',function () {
     return view('people');
 });
 
+Route::get('ann',function () {
+    return view('ann');
+});
+
+Route::get('edward',function () {
+    return view('edward');
+});
+
+Route::get('hind',function () {
+    return view('hind');
+});
+
+Route::get('khadidiatou',function () {
+    return view('khadidiatou');
+});
+
+Route::get('kennedy',function () {
+    return view('kennedy');
+});
+
+Route::get('lena',function () {
+    return view('lena');
+});
+
+Route::get('patrick',function () {
+    return view('patrick');
+});
+
+Route::get('peter',function () {
+    return view('peter');
+});
+
+Route::get('sharma',function () {
+    return view('sharma');
+});
+
 Route::prefix('/media')->group(function(){
     Route::get('',function(){return view('media');})->name('media');
     Route::get('/gallery',function(){return view('gallery');})->name('media.gallery');
