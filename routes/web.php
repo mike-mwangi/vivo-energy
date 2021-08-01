@@ -64,6 +64,22 @@ Route::get('vacancies',function () {
     return view('vacancies');
 });
 
+Route::get('education',function () {
+    return view('education');
+});
+
+Route::get('road_safety',function () {
+    return view('road_safety');
+});
+
+Route::get('enviroment',function () {
+    return view('enviroment');
+});
+
+Route::get('community',function () {
+    return view('community');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
