@@ -43,6 +43,42 @@ Route::get('people',function () {
     return view('people');
 });
 
+Route::get('ann',function () {
+    return view('ann');
+});
+
+Route::get('edward',function () {
+    return view('edward');
+});
+
+Route::get('hind',function () {
+    return view('hind');
+});
+
+Route::get('khadidiatou',function () {
+    return view('khadidiatou');
+});
+
+Route::get('kennedy',function () {
+    return view('kennedy');
+});
+
+Route::get('lena',function () {
+    return view('lena');
+});
+
+Route::get('patrick',function () {
+    return view('patrick');
+});
+
+Route::get('peter',function () {
+    return view('peter');
+});
+
+Route::get('sharma',function () {
+    return view('sharma');
+});
+
 Route::prefix('/media')->group(function(){
     Route::get('',function(){return view('media');})->name('media');
     Route::get('/gallery',function(){return view('gallery');})->name('media.gallery');
@@ -64,6 +100,7 @@ Route::get('vacancies',function () {
     return view('vacancies');
 });
 
+<<<<<<< HEAD
 Route::get('education',function () {
     return view('education');
 });
@@ -79,6 +116,12 @@ Route::get('enviroment',function () {
 Route::get('community',function () {
     return view('community');
 });
+=======
+Route::get('/', 'App\Http\Controllers\BlogController@index');
+
+Route::get('single-blog/{id}', 'App\Http\Controllers\BlogController@show');
+
+>>>>>>> 8f370ff15135d3c82770983f5a47fc816708ddae
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

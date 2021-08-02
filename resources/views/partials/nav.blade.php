@@ -32,10 +32,9 @@
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
                                 <!-- logo-1 -->
-                                <a href="{{ url('/') }}" class="big-logo"><img src="assets/img/logo/loader-velogo.png"style="height:100px" width="205px" alt=""></a>
+                                <a href="{{ url('/') }}" class="big-logo"><img src="{{asset('assets/img/logo/velogo.png')}}"style="height:100px" width="205px" alt=""></a>
                                 
-                                <!-- logo-2 -->
-                                <a href="{{ url('/') }}" class="small-logo"><img src="assets/img/logo/loder-velogo.png" alt=""></a>
+                               
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
@@ -49,8 +48,6 @@
                                         <li><a href="{{ url('/community') }}">Community</a></li>
                                         <li><a href="#">HSSE</a></li>
                                         <li><a href="{{ url('/careers') }}">Careers</a></li>
-                                        <li><a href="#">Media Center</a></li>
-                                        <li><a href="#">Careers</a></li>
                                         <li><a href="{{route('media')}}">Media Center</a></li>
                                         <!-- <li><a href="#">Blog</a>
                                             <ul class="submenu">

@@ -25,12 +25,12 @@
                                 <img src="assets/img/gallery/why_vivo_others2.png" alt="" width = 690px height = 321px>
                             </div>
                             <div class="details-caption">
-                                <p>We operate under the Shell and Engen brands – the most recognised brands in Africa. Our company vision – to create Africa’s most respected energy business - is being achieved through:</p>
+                                <p>We operate under the Shell and Engen brands – the most recognised brands in Africa. <a href = "">Our company vision – to create Africa’s most respected energy business</a> - is being achieved through:</p>
                                 <p>
                                     <ul>
-                                    <li>- The high quality of Shell and Engen products.
+                                    <li>- The high quality of <a href = "{{ url('/products') }}">Shell and Engen products</a>.
                                     <li>- An emphasis on local accountability in the countries where we operate.
-                                    <li>- The highest HSSE standards.
+                                    <li>- The highest <a href = "">HSSE standards</a>.
                                     <li>- Our demonstrated commitment to our core values - Honesty, Integrity and Respect for People. 
                                     </ul>
                                 </p>

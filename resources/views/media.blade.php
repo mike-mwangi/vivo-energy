@@ -45,8 +45,8 @@
                                                </div>
                                                <div class="project-cap">
                                                    
-                                                   <h4><a href="/press">PRESS RELEASES</a></h4>
-                                                   <h4><a href="/press">
+                                                   <h4><a href="{{route('media.press')}}">PRESS RELEASES</a></h4>
+                                                   <h4><a href="{{route('media.press')}}">
                                                        <p>Vivo Energy Uganda, the company that distributes and markets Shell-branded fuels and lubricants in Uganda, together with National Environment Management Authority (NEMA), Uganda Breweries Limited....</p>
                                                    </a></h4>
                                                </div>
