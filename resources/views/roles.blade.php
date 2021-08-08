@@ -22,7 +22,7 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="assets/img/gallery/roles2.png" alt="" width = 690px height = 321px>
+                                <img src="{{asset('assets/img/gallery/roles.jpg')}}" alt="" width = 690px height = 321px>
                             </div>
                             <div class="details-caption">
                                 <p>The energy industry is a vibrant, dynamic one, providing multiple opportunities to develop an exciting career in an array of disciplines. These include:</p>
@@ -55,12 +55,12 @@
                                         <li>- Technical product specialisation
                                         <li>- Engineering
                                     </ul>
-                                </p>    
+                                </p>
 
                                 <h3>Supply and Distribution</h3>
 
                                 <p>Supply & Distribution is the backbone of our enterprise. Being able to source, receive, store and deliver our products to our customers in a manner that is reliable, safe and cost-effective is key to the success of our business. You will be called upon to utilise your engineering, supply chain, risk management and strategic business planning know-how to ensure that we operate safely, and to optimise our cost of operations, storage capacity and distribution channels. You will work with our world-class standards and also develop your expertise in the area of Health, Safety, Security and Environment management. Job opportunities are available in the following areas:</p>
-                                <p>    
+                                <p>
                                     <ul>
                                         <li>- Supply Chain
                                         <li>- Terminal Operations Management
@@ -90,7 +90,7 @@
                                 </p>
 
                                 <h3>Contracting & Procurement</h3>
-                                
+
                                 <p>Join us in this area and you’ll enjoy a rare chance to gain exposure to international procurement and the tools used in purchasing everything from pencils to pipelines. You’ll be involved in: </p>
                                 <p>
                                     <ul>

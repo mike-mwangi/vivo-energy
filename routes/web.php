@@ -18,9 +18,18 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/about', function () {
-    return view('about');
+// Route::get('/about', function () {
+//     return view('about');
+// });
+
+Route::prefix('/about')->group(function(){
+    Route::get('',function(){return view('about');})->name('about');
+    Route::get('/vision',function(){return view('vision');})->name('about.vision');
+    Route::get('/glance',function(){return view('glance');})->name('about.glance');
+    Route::get('/principles',function(){return view('principles');})->name('about.principles');
+
 });
+
 Route::resource('/contact', FeedbackController::class);
 
 Route::get('careers',function () {
@@ -98,6 +107,18 @@ Route::get('students',function () {
 
 Route::get('vacancies',function () {
     return view('vacancies');
+});
+
+Route::get('hsse',function () {
+    return view('hsse');
+});
+
+Route::get('community',function () {
+    return view('community');
+});
+
+Route::get('road_safety',function () {
+    return view('road_safety');
 });
 
 Route::get('/', 'App\Http\Controllers\BlogController@index');

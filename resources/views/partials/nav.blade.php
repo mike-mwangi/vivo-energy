@@ -33,8 +33,8 @@
                             <div class="logo">
                                 <!-- logo-1 -->
                                 <a href="{{ url('/') }}" class="big-logo"><img src="{{asset('assets/img/logo/velogo.png')}}"style="height:100px" width="205px" alt=""></a>
-                                
-                               
+
+
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
@@ -46,7 +46,7 @@
                                         <li><a href="{{ url('/about') }}">About</a></li>
                                         <li><a href="{{ url('/products') }}">Products</a></li>
                                         <li><a href="{{ url('/community') }}">Community</a></li>
-                                        <li><a href="#">HSSE</a></li>
+                                        <li><a href="{{ url('/hsse') }}">HSSE</a></li>
                                         <li><a href="{{ url('/careers') }}">Careers</a></li>
                                         <li><a href="{{route('media')}}">Media Center</a></li>
                                         <!-- <li><a href="#">Blog</a>

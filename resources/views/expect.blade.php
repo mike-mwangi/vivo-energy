@@ -26,13 +26,13 @@
                             </div>
                             <div class="details-caption">
                                 <p>
-                                    <ul>
-                                    <li>- A vibrant business environment where your opinion is valued and the necessary resources provided to help you produce great results.
-                                    <li>- High performing leaders to support you through coaching and help you grow.
-                                    <li>- Learning and growth opportunities. Exciting and interesting career possibilities. Clear single point accountability and responsibility for delivering your performance goals.
-                                    <li>- Working with people from diverse cultures and backgrounds who add dynamic ideas and experiences to the mix every day. 
-                                    <li>- Competitive reward and recognition for the contribution you make through performance-related pay and bonuses. 
-                                    <li>- A safe and pleasant work environment.
+                                    <ul class="unordered-list">
+                                    <li> A vibrant business environment where your opinion is valued and the necessary resources provided to help you produce great results.
+                                    <li> High performing leaders to support you through coaching and help you grow.
+                                    <li> Learning and growth opportunities. Exciting and interesting career possibilities. Clear single point accountability and responsibility for delivering your performance goals.
+                                    <li> Working with people from diverse cultures and backgrounds who add dynamic ideas and experiences to the mix every day.
+                                    <li> Competitive reward and recognition for the contribution you make through performance-related pay and bonuses.
+                                    <li> A safe and pleasant work environment.
 
                                     </ul>
                                 </p>

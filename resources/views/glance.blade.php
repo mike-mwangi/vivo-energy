@@ -1,4 +1,4 @@
-  
+
 @extends('layouts.master')
 
 @section('content')
@@ -26,7 +26,7 @@
                 <div class="right-content">
                     <!-- img -->
                     <div class="right-img">
-                        <img src="assets/img/hope/energy.png" alt="">
+                        <img src="{{asset('assets/img/gallery/fuels.jpg')}}" alt="">
                     </div>
                     <div class="support-img-cap text-center">
                         <span>2011</span>
@@ -35,11 +35,11 @@
                 </div>
             </div>
         </section>
-        <!-- About Area End --> 
+        <!-- About Area End -->
     </main>
    <footer>
-      
-        
+
+
     </body>
 
 @endsection

@@ -24,13 +24,14 @@
 </div>
 <!-- slider Area End-->
 <!-- About Area Start -->
-<section class="support-company-area fix pt-10 section-padding30">
+<section class="support-company-area fix pt-6 section-padding2">
     <div class="support-wrapper align-items-end">
         <div class="left-content">
             <!-- section tittle -->
             <div class="section-tittle section-tittle2 mb-55">
-               
-                <span class="back-text">Community</span>
+                <div class="front-text">
+                    <h2 class="">Community</h2>
+                </div>
             </div>
             <div class="support-caption">
                 <p class="pera-top">At Vivo Energy, we want to make a real and lasting difference to the communities in which we operate. We have chosen to focus on three key areas of community investment.
@@ -44,24 +45,25 @@ The three themes of our community investment programme are road safety, educatio
         <div class="right-content">
             <!-- img -->
             <div class="right-img">
-                <img src="assets/img/gallery/safe_in.png" alt="">
+                <img src="assets/img/gallery/solarPanels.jpg" alt="">
             </div>
-        
+
         </div>
     </div>
 </section>
 <!-- About Area End -->
 <!-- Testimonial End -->
 <!-- Team Start -->
-<div class="team-area section-padding30">
+<div class="team-area section-padding2">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <!-- Section Tittle -->
                 <div class="section-tittle section-tittle5 mb-50">
-                   
-                    <span class="back-text">Community</span>
-                </div>
+                    <div class="front-text">
+                        <h2 class="">Community</h2>
+                    </div>
+               </div>
             </div>
         </div>
         <div class="row">
@@ -72,7 +74,7 @@ The three themes of our community investment programme are road safety, educatio
                     <a href="{{ url('/education') }}"><img src="assets/img/team/education.jpg" alt="">
                     </div>
                     <div class="team-caption">
-                        
+
                         <h3>Education</h3>
                     </div>
                 </div>
@@ -83,7 +85,7 @@ The three themes of our community investment programme are road safety, educatio
                     <a href="{{ url('/road_safety') }}"> <img src="assets/img/team/road_safety.jpg" alt="">
                     </div>
                     <div class="team-caption">
-                        
+
                         <h3>Road saftey </h3>
                     </div>
                 </div>
@@ -94,7 +96,7 @@ The three themes of our community investment programme are road safety, educatio
                     <a href="{{ url('/enviroment') }}">  <img src="assets/img/team/enviroment.jpeg" alt="">
                     </div>
                     <div class="team-caption">
-                     
+
                         <h3>Enviroment</h3>
                     </div>
                 </div>
