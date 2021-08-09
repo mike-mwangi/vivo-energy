@@ -49,7 +49,7 @@
                                         <li><a href="{{ url('/hsse') }}">HSSE</a></li>
                                         <li><a href="{{ url('/careers') }}">Careers</a></li>
                                         <li><a href="{{route('media')}}">Media Center</a></li>
-                                        <!-- <li><a href="{{ url('/hsse') }}">Blog</a>
+                                         <li><a href="{{ url('/hsse') }}">Blog</a></li>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="single-blog.html">Blog Details</a></li>
